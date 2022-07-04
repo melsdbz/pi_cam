@@ -1,0 +1,35 @@
+h1.title {
+text-align: center;
+}
+
+div.link {
+width: 100%;
+font-size: 2rem;
+text-align: center;
+}
+
+img.landing {
+width: 50%;
+}
+
+img.help {
+width: 75%;
+}
+
+div.imgholder {
+text-align: center;
+}
+
+figure {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+body {
+min-height: 100%;
+height: 100vh;
+width: 100%;
+overflow: auto;
+background-color: #EFFFEF;
+font-family: 'Nunito Sans', sans-serif !important;
+}

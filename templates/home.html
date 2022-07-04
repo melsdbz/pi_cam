@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+	<div>
+		<h1 class="title">Ale and Mel's Rooftop Garden</h1>
+	</div>
+	<figure>
+		<img class ="landing" src = "{{url_for('static', filename='current.jpg')}}">
+		<figcaption>This is the most recent picture of the roof. If you would like to see a live feed of the roof, click below</figcaption>
+	</figure>
+	<div class="link">
+		<a class="link" href="vid">Livestream</a>
+    </div>
+</div>
+
+{% endblock %}
